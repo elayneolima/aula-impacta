@@ -1,1 +1,32 @@
 /* Notas da Aula */
+
+header{
+    background-color: brown;
+}
+.filha{
+    background-color: blueviolet;
+    width: 500px;
+
+
+}
+.pai{
+    background-color: aqua;
+    /* width: 800px;0 */
+    width: 50%;
+
+/* NOTAS
+
+quando chegamos no limite da div acima, gera uma barra de rolagem para visualizar esse elemento, pois quando a tela é menor que a div ele gera a mesma. 
+quando trabalhamos com px estamos dizendo que o tamanho é fixo! por este motivo o elemento nao se adapta, é o tamanho absoluto. 
+
+quando trabalhamos com porcentagem, estamos falando de medida relativa, os 50% da div acima é 50% do elemento pai, percebe-se também que a div
+diminui acompanahado o limite da tela. 
+
+imagine nos casos acima que temos uma caixa dentro da outra, e que cada uma delas herda o tamanho do seu respectivo pai. Se voce configurar
+que o pai tem 500px fixos, o filho continuará herdando os 90% desses 500 pixels. Isso é bom porque se você alterar a largura do pai, o filho 
+irá se ajustar proporcionalmente a largura do pai. 
+
+*/
+
+}
+

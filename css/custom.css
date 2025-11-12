@@ -1,0 +1,15 @@
+
+/* Cores do Site */
+:root{ 
+
+    --cor-proclean-green: #36B864; /*Isto é uma variavel*/
+    --cor-proclean-white: #ffffff; 
+    --cor-proclean-grey:  #4D4D4D; 
+    --cor--proclean--lil: #000000; 
+    /*O root é um seletor que se baseia na raiz do projeto, é como se colocasse uma formatação que pode ser usada para todo o css
+    no nosso caso, vamos criar variável para utilizar cores que podem ser aplicadas em mais de um elemento.
+    */
+
+    /* Tamanho da Fonte */
+    --font-size: 100%; 
+}
