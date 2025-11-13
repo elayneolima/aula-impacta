@@ -195,10 +195,24 @@ h1{
 }
 
 
+.second-section{
+    background-image: url("../images/Image.svg");
+    background-repeat: no-repeat;
+    width: 50%;
+    margin: 0 auto;
+    background-size: cover;
+}
 
 
+.second-content{
+    width: 48%;
+    font-family: playfair;
+    padding: 0px 0px 0px 0px;
+}
 
-
+h2{
+    font-size: 1.5rem;
+}
 
 
 
