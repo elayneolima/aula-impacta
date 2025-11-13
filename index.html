@@ -137,7 +137,7 @@
     </footer>
 
     <script src="../js/bootstrap.bundle.js"></script>
-    <script src="../js/bootstrap.esm.js"></script>
+    <!-- <script src="../js/bootstrap.esm.js"></script> -->
     <script src="../js/bootstrap.js"></script>
     <script src="../js/introducao.js"></script>
 
@@ -159,7 +159,7 @@
         //+ Serve para Juntar, quando o js encontrar strings ele entende que deve juntar
         //A interpolação funciona usando crases `${nomeDaVariavel} ${nomeDaOutraVariavel}`
         var nomeCompletoC = firstName + ' ' +lastName;
-        var nomeCompletoI = `${firstName} ${lastName}`;
+        var nomeCompletoI = `${firstName} ${lastName}`; // mais recomendado
 
         console.log(nomeCompletoI);
         console.log(nomeCompletoC);
