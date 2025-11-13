@@ -246,8 +246,9 @@ h1{
 
 .card-section img{
     width: 80%;
+    margin: auto;
 }
 
-.card-text{
-    width: 80%;
+.card-body{
+    padding-left: 50px ;
 }
