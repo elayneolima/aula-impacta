@@ -69,7 +69,7 @@ html{
 
 
 .item{
-    /* text-decoration: none; - Já está na classe btn */
+    text-decoration: none;
     margin: 12px 12px;
     display: block;
     font-size: 1rem;
@@ -109,6 +109,7 @@ h1{
     height: auto; /* altura fixa não é recomendada, apesar de que é possível definir. Auto é o melhor valor pois ele se adapta conforme o conteudo dentro do elemento. */
                 /*Position fixed nao se move com a barra de rolagem, o absolute sim*/
     text-decoration: none;
+    background: linear-gradient(rgb(57, 152, 85), rgb(49, 91, 31), rgb(31, 99, 31));
     /* text-shadow: -1px 1px 2px #000000 ; */
     /* box-shadow: 0 1px 1px #000000; */
     /* line-height: ;  - Ajusta altura/espaço entre as linhas do texto*/
@@ -163,8 +164,12 @@ h1{
 
 .main-buttons > a {
     display: block;
-    margin-left: 8px;
+ 
     /* white-space: nowrap; - Pesquisa feita sobre como ajustar quebras de linha */
+}
+
+.main-buttons a:last-of-type{
+    margin-left: 8px;
 }
 
 .main-buttons {
