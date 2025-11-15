@@ -227,14 +227,19 @@ h1{
     padding-bottom: 20px;
 }
 
-.botao{
+/* .botao{
     display: block;    
     padding-top: 20px;
-}
+} */
 
 .card{
+    padding-right:30px ;
     border: none;
     width: 50%;
+}
+
+.card-body{
+    padding-left: 0;
 }
 .card-section{
     display: flex;
@@ -244,8 +249,8 @@ h1{
     width: 63%;
 }
 
-.card-section img{
-    width: 70%;
+.card-section > img{
+    width: 80%;
     /* margin: auto; */
 }
 
@@ -277,13 +282,16 @@ h1{
 
 }
 
+
 .group > a{
     display: block;
 }
 
 .group{
     display: flex;
+    justify-content: center;
 }
+
 
 .main-intro{
     padding-top: 150px ;
