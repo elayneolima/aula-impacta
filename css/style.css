@@ -181,7 +181,7 @@ h1{
 
 
 .btn-opc{
-    border: 2px black solid; 
+    border: 1px black solid; 
     color: var(--cor-proclean-white);
     padding: 12px 24px;
     border-radius: 5px; 
@@ -241,6 +241,7 @@ h1{
 .card-body{
     padding-left: 0;
 }
+
 .card-section{
     display: flex;
     justify-content: center;
@@ -254,33 +255,6 @@ h1{
     /* margin: auto; */
 }
 
-.section-main-text{
-    display: flex;
-    justify-content: space-around;
-    width: 50%;
-
-}
-.titulo-principal{
-    width: 50%;
-    margin: auto;
-}
-
-.titulo-principal h2{
-    font-family: playfair;
-    width: 60%;
-    font-size: 2.1rem;
-}
-
-.texto-principal > p:last-of-type{
-    font-family: playfair;
-    width: 64%;
-}
-
-.texto-principal > p:first-child{
-    font-family: playfair;
-    font-weight: 600;
-
-}
 
 
 .group > a{
@@ -292,23 +266,30 @@ h1{
     justify-content: center;
 }
 
+/*Textos acima dos cards*/
 
 .main-intro{
-    padding-top: 150px ;
+    
     display: flex;
     justify-content: space-around;
-    width: 90%;
+    align-items: flex-start;
+    padding-top: 150px ;
+    width: 74%;
     margin: auto;
 }
 
-.titulo-intro > h2{
+
+.titulo-intro h2{
     font-family: playfair;
-    width: 79%;
+    font-size: 2.2rem;
+    max-width: 420px;
 }
 
-.texto-intro{
+.texto-intro p {
     font-family: playfair;
-    width: 23%;
+    max-width: 426px;
 }
 
-
+/* .texto-intro > p:last-of-type{
+    font-family: playfair;
+} */
