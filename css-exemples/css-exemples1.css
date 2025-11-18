@@ -1,0 +1,32 @@
+
+
+.main{
+    background-color: blue;
+    width: 60%;
+    min-height: 350px;
+
+    /*Flex box*/
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+
+.item{
+    
+    color: white;
+    background-color: black;
+    width: 100px;
+    height: 100px;
+    border: 2px white solid;
+    font-size: 30px;
+}
+
+.first{
+    height: 150px;
+}
+
+.second{
+    height: 170px;
+}

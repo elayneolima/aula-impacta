@@ -1,0 +1,92 @@
+:root{
+    --calcula-largura: calc(100% / 12)
+}
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+.container{
+  max-width: 90%;
+  margin: auto;
+  
+}
+
+.main-content{
+    border-bottom: 2px var( --cor-proclean-green) solid;
+}
+
+.h1{
+    font-size: 2rem;
+    padding: 10px 0px;
+    text-align: start;
+}
+
+.main-titulo{
+ font-size: 1rem;
+ font-weight: 900;
+ padding: 10px 0px;
+}
+
+.main-descricao{
+    font-size: 1rem;
+    color: var(--cor-proclean-grey);
+    padding: 10px 0px;
+}
+
+.main-buttons{
+    padding: 10px 0px;
+}
+
+.linha{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap ;
+    padding-bottom: 20px;
+}
+
+.coluna{
+    width: 100%;
+}
+
+.linha div:first-child{
+    background-color: blueviolet;
+}
+
+.linha div:last-child{
+    background-color: aqua;
+}
+
+/*small sm >= 576px*/
+
+@media screen and (min-width: 576px){ /*quando o tamanho minimo da tela for 576*/
+    .h1-sm{
+        font-size: 2.5rem;
+    }
+}
+
+@media screen and (min-width: 768px){ /*quando o tamanho minimo da tela for 576*/
+    .h1-md{
+        font-size: 4.5rem;
+    }
+}
+
+@media screen and (min-width: 992px){ /*quando o tamanho minimo da tela for 576*/
+    .h1-lg{
+        font-size: 4.5rem;
+    }
+
+    .coluna-lg-1{
+        width: 8.33%;
+    }
+
+    .coluna-lg-2{
+        width: 16.66;
+    }
+
+
+}
+
+

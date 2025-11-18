@@ -284,6 +284,8 @@ h1{
 
 
 .titulo-intro h2{
+    /*Para renderizar no chrome -webkit-*/ 
+    
     font-family: playfair;
     font-size: 2.2rem;
     max-width: 420px;
@@ -297,3 +299,191 @@ h1{
 /* .texto-intro > p:last-of-type{
     font-family: playfair;
 } */
+
+.global-alin{
+    width:80% ;
+    margin: auto;
+    /* border:5px  #000000 solid; */
+}
+/*media query
+
+Ela vai ajudar na aplicação de CSS para identificar um tamanho de tela de usuário 
+e esse tamanho de tela será formatado conforme o tamanho de tela.
+*/
+
+
+
+/* 
+TABELA BREAKPOINTS - BOOTSTRAP
+
+BP                   CLASS               INFIX DIMENSIONS
+
+X SAMALL            None                 <576px        
+Small               sm                   >-576px
+Medium              md                   >-768px 
+Large               lg                   >-992px
+Extra Large         xl                   >-1200px 
+Extra extra Large   xxl                  >-1400px 
+
+*/
+
+
+@media screen and (max-width: 992px){
+
+    .header {
+        width: 90%;
+        padding: 16px 0;
+    }
+
+    .menu {
+        width: 60%;
+    }
+
+    .main-clean {
+        width: 100%;
+        
+    }
+
+    .main-content {
+        width: 90%;
+        padding-left: 60px;
+    }
+
+    .main-content h1 {
+        font-size: 2rem;
+        width: 80%;
+    }
+
+    .main-content p:last-of-type {
+        width: 70%;
+    }
+
+    .main-buttons {
+        width: 60%;
+    }
+
+    .section-content {
+        flex-direction: column;
+        text-align: center;
+        gap: 40px;
+    }
+
+    .text-content h2 {
+        width: 100%;
+    }
+
+    .card {
+        width: 100%;
+        text-align: center;
+        padding: 0;
+    }
+
+    .card-section > img {
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width: 768px){
+
+ 
+    .header {
+        justify-content: space-between;
+        width: 100%;
+    }
+
+
+    .menu {
+        display: none;
+    }
+
+
+    .btn-green {
+        padding: 10px 26px;
+        width: 150px;
+        font-size: .9rem;
+    }
+
+   
+    .main-clean {
+        background-position: contain;
+      
+    }
+
+    .main-content {
+        padding: 60px 20px;
+        width: 100%;
+    }
+
+    .main-content h1 {
+        font-size: 1.7rem;
+        width: 100%;
+    }
+
+    .main-content p:last-of-type {
+        width: 100%;
+    }
+
+    .main-buttons {
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width: 576px){
+
+    .header {
+        flex-direction: row;
+        padding: 14px 10px;
+    }
+
+    .logo img {
+        width: 120px;
+    }
+
+    .main-content {
+        padding: 40px 10px;
+        text-align: left;
+    }
+
+    .main-content h1 {
+        font-size: 1.5rem;
+    }
+
+    .main-content p:first-child {
+        font-size: 1rem;
+    }
+
+    .main-content p:last-of-type {
+        font-size: .9rem;
+    }
+
+    .btn-green,
+    .btn-opc {
+        width: 100%;
+        text-align: center;
+    }
+
+    .main-buttons {
+        flex-direction: column;
+        gap: 12px;
+        width: 100%;
+    }
+
+    
+    .card-section {
+        flex-direction: column;
+        width: 100%;
+        gap: 40px;
+    }
+
+    .card {
+        width: 100%;
+        padding: 0;
+    }
+
+    .titulo-intro h2 {
+        font-size: 1.7rem;
+    }
+}
+
